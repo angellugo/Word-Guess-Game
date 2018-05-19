@@ -51,7 +51,7 @@ function checkForLoss() {
     if (numberOfGuessesRemaining < 1) {
         debug && alert("You've lost :(\nThe word was " + wordToGuess);
         document.querySelector("#wonLoss").innerHTML = "You've lost... The word was " + wordToGuess;
-        resetGameAfterXMiliseconds(2000);
+        resetGameAfterXMiliseconds(4000);
     }
 }
 
